@@ -9,6 +9,11 @@ function mul(a,b)
     return a*b;
 }
 
-export const mult=mul
+function sq(i)
+{
+    return i*i;
+}
 
+export const mult=mul
+console.log(sq(2));
 export const getobs=obs
